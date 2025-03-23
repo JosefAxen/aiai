@@ -14,7 +14,7 @@ jobs:
       - name: 🧰 Setup .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: 9.0.2  # Change to 8.0.x if you use .NET 8
+          dotnet-version: 9.0.x  # Change to 8.0.x if you use .NET 8
 
       - name: 🏗️ Publish Blazor WebAssembly app
         run: dotnet publish -c Release -o release
