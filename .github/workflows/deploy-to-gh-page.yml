@@ -17,7 +17,7 @@ jobs:
           dotnet-version: 8.0.x  # Use 9.0.x if GitHub supports it later
 
       - name: 🏗️ Publish Blazor WebAssembly app
-        run: dotnet publish ./aiai/aiai.csproj -c Release -o release
+        run: dotnet publish ./AI.csproj -c Release -o release
 
       - name: 📄 Copy index.html to 404.html
         run: cp release/wwwroot/index.html release/wwwroot/404.html
