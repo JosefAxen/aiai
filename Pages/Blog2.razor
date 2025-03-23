@@ -1,0 +1,157 @@
+﻿@page "/blog-2"
+<AI.Pages.Components.NavMenu />
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+<section id="blog-post-ai-strategier" class="py-5 bg-light" data-aos="fade-up">
+    <div class="container">
+        <h2 class="section-title text-center text-dark display-6 fw-bold">
+            🚀 Hur AI revolutionerar affärsstrategier
+        </h2>
+
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <p class="fs-5 fw-light text-dark" data-aos="fade-up" data-aos-delay="100">
+                    Vi lever i en era där **artificiell intelligens (AI) inte bara är en trend – det är en revolution.**
+                    Företag som tar till sig AI vinner marknadsandelar, effektiviserar sina processer och skapar
+                    en helt ny nivå av kundupplevelse. **Men hur? Och hur kan Axén Intelligence hjälpa dig att ligga steget före?**
+                </p>
+
+                <!-- Cool effekt med en divider -->
+                <div class="divider my-4" data-aos="zoom-in"></div>
+
+                <h4 class="text-dark fw-semibold mt-4" data-aos="fade-right">💡 AI som en drivkraft för innovation</h4>
+                <p class="fs-5 fw-light text-dark" data-aos="fade-left" data-aos-delay="100">
+                    **Dina data är din största tillgång.** Med AI kan vi analysera mönster,
+                    förutse marknadstrender och generera insikter som tidigare varit omöjliga att upptäcka.
+                    Axén Intelligence skapar **intelligenta AI-agenter** som omvandlar rådata till **konkreta strategier**
+                    – så att du kan fatta **bättre beslut, snabbare.**
+                </p>
+
+                <h4 class="text-dark fw-semibold mt-4" data-aos="fade-right">⚙️ Automatiserade arbetsflöden = Tidsbesparing</h4>
+                <p class="fs-5 fw-light text-dark" data-aos="fade-left" data-aos-delay="100">
+                    **Manuella processer hör till det förflutna.** Vi bygger **smarta automatiserade arbetsflöden**
+                    med hjälp av **AI och n8n** som frigör din tid och gör din verksamhet **effektivare än någonsin.**
+                    Från kundsupport till analys – vi ser till att varje uppgift som kan automatiseras **blir automatiserad**.
+                </p>
+
+                <h4 class="text-dark fw-semibold mt-4" data-aos="fade-right">🤖 AI-agenter som arbetar dygnet runt</h4>
+                <p class="fs-5 fw-light text-dark" data-aos="fade-left" data-aos-delay="100">
+                    Tänk dig en **digital medarbetare** som aldrig sover, aldrig gör fel och ständigt optimerar dina affärsprocesser.
+                    Våra **AI-agenter** kan hantera allt från **intelligent lead-generering och automatiserad kundkommunikation**
+                    till **real-time dataanalys** – så att du kan fokusera på att **växa din verksamhet.**
+                </p>
+
+                <h4 class="text-dark fw-semibold mt-4" data-aos="fade-right">🌍 AI + Hållbarhet = Framtiden</h4>
+                <p class="fs-5 fw-light text-dark" data-aos="fade-left" data-aos-delay="100">
+                    **Hållbarhet är nyckeln till framtidens affärsmodeller.** Genom att använda AI för att optimera resurser,
+                    minska svinn och automatisera energiförbrukning kan vi hjälpa ditt företag att **inte bara spara pengar,
+                    utan också bidra till en mer hållbar värld.** AI gör **grön tillväxt möjlig.**
+                </p>
+
+                <h4 class="text-dark fw-semibold mt-4" data-aos="fade-right">🚀 Är du redo att ta nästa steg?</h4>
+                <p class="fs-5 fw-light text-dark" data-aos="fade-left" data-aos-delay="100">
+                    **AI är här för att stanna.** De företag som anpassar sig nu kommer att leda marknaden imorgon.
+                    Axén Intelligence är din partner på denna resa – vi hjälper dig att **implementera AI, automatisera arbetsflöden
+                    och ta din affärsstrategi till nästa nivå.** Är du redo?
+                </p>
+
+                <!-- CTA-Knapp med smooth hover-effekt -->
+                <div class="text-center mt-5" data-aos="zoom-in">
+                    <a href="https://calendly.com/josefaxen-proton/30min" class="btn btn-ai-action">📩 Boka en AI-konsultation</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<head>
+
+    <style>
+        /* === Divider för snygg övergång mellan sektioner === */
+        .divider {
+            width: 60px;
+            height: 5px;
+            background: linear-gradient(45deg, #4CAF50, #81C784);
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+
+        /* === AI-action-knapp med cool hover-effekt === */
+        .btn-ai-action {
+            background: linear-gradient(45deg, #4CAF50, #81C784);
+            border: none;
+            color: #fff;
+            font-size: 1.2rem;
+            font-weight: 600;
+            padding: 12px 30px;
+            border-radius: 50px;
+            transition: background 0.3s ease, transform 0.3s ease;
+            display: inline-block;
+        }
+
+            .btn-ai-action:hover {
+                background: linear-gradient(45deg, #43A047, #66BB6A);
+                transform: scale(1.05);
+            }
+
+        /* === Subtila animationer för text === */
+        h4 {
+            position: relative;
+        }
+
+            h4::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: -5px;
+                width: 40px;
+                height: 3px;
+                background: linear-gradient(45deg, #4CAF50, #81C784);
+                border-radius: 10px;
+            }
+
+        /* === Fade-in på text för bättre läsflow === */
+        .fs-5 {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.5s ease-in-out;
+        }
+
+        [data-aos="fade-up"] .fs-5 {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+    </style>
+</head>
+
+<script>
+    // Preloader
+    window.addEventListener('load', function () {
+        document.getElementById('preloader').style.display = 'none';
+    });
+
+
+    // Navbar shrink on scroll
+    window.addEventListener('scroll', function() {
+        const navbar = document.getElementById('navbar');
+        navbar.classList.toggle('navbar-shrink', window.scrollY > 50);
+    });
+
+    // Initialize AOS
+    AOS.init({
+        duration: 1000,
+        once: true
+    });
+
+    // Initialize particles.js with smoother configuration
+
+
+</script>

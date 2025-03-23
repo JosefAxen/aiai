@@ -1,0 +1,97 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = AI
+build_property.RootNamespace = AI
+build_property.ProjectDir = C:\Users\josef\source\repos\AI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\josef\source\repos\AI
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/josef/source/repos/AI/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josef/source/repos/AI/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josef/source/repos/AI/Pages/Blog 1.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZyAxLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josef/source/repos/AI/Pages/Blog2.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZzIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josef/source/repos/AI/Pages/BLOG3.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkxPRzMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josef/source/repos/AI/Pages/Components/AboutSection.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xBYm91dFNlY3Rpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josef/source/repos/AI/Pages/Components/BlogSection.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xCbG9nU2VjdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josef/source/repos/AI/Pages/Components/ContactSection.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xDb250YWN0U2VjdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josef/source/repos/AI/Pages/Components/HeroSection.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xIZXJvU2VjdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josef/source/repos/AI/Pages/Components/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xOYXZNZW51LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josef/source/repos/AI/Pages/Components/ServicesSection.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xTZXJ2aWNlc1NlY3Rpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josef/source/repos/AI/Pages/Components/StatisticsSection.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xTdGF0aXN0aWNzU2VjdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josef/source/repos/AI/Pages/Components/TeamSection.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xUZWFtU2VjdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josef/source/repos/AI/Pages/Components/TestimonialSection.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xUZXN0aW1vbmlhbFNlY3Rpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josef/source/repos/AI/Pages/Footer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vdGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josef/source/repos/AI/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josef/source/repos/AI/Pages/Navbar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmF2YmFyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josef/source/repos/AI/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

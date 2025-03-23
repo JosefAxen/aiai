@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\josef\\source\\repos\\AI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{42D83488-769A-4B3B-AA7F-F169B6AA54FA}|AI.csproj|c:\\users\\josef\\source\\repos\\ai\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42D83488-769A-4B3B-AA7F-F169B6AA54FA}|AI.csproj|solutionrelative:pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42D83488-769A-4B3B-AA7F-F169B6AA54FA}|AI.csproj|c:\\users\\josef\\source\\repos\\ai\\pages\\footer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42D83488-769A-4B3B-AA7F-F169B6AA54FA}|AI.csproj|solutionrelative:pages\\footer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42D83488-769A-4B3B-AA7F-F169B6AA54FA}|AI.csproj|c:\\users\\josef\\source\\repos\\ai\\pages\\blog3.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42D83488-769A-4B3B-AA7F-F169B6AA54FA}|AI.csproj|solutionrelative:pages\\blog3.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42D83488-769A-4B3B-AA7F-F169B6AA54FA}|AI.csproj|c:\\users\\josef\\source\\repos\\ai\\pages\\blog2.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42D83488-769A-4B3B-AA7F-F169B6AA54FA}|AI.csproj|solutionrelative:pages\\blog2.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42D83488-769A-4B3B-AA7F-F169B6AA54FA}|AI.csproj|c:\\users\\josef\\source\\repos\\ai\\pages\\blog 1.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42D83488-769A-4B3B-AA7F-F169B6AA54FA}|AI.csproj|solutionrelative:pages\\blog 1.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42D83488-769A-4B3B-AA7F-F169B6AA54FA}|AI.csproj|c:\\users\\josef\\source\\repos\\ai\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42D83488-769A-4B3B-AA7F-F169B6AA54FA}|AI.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42D83488-769A-4B3B-AA7F-F169B6AA54FA}|AI.csproj|c:\\users\\josef\\source\\repos\\ai\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42D83488-769A-4B3B-AA7F-F169B6AA54FA}|AI.csproj|solutionrelative:app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BLOG3.razor",
+              "DocumentMoniker": "C:\\Users\\josef\\source\\repos\\AI\\Pages\\BLOG3.razor",
+              "RelativeDocumentMoniker": "Pages\\BLOG3.razor",
+              "ToolTip": "C:\\Users\\josef\\source\\repos\\AI\\Pages\\BLOG3.razor",
+              "RelativeToolTip": "Pages\\BLOG3.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T10:30:13.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Blog2.razor",
+              "DocumentMoniker": "C:\\Users\\josef\\source\\repos\\AI\\Pages\\Blog2.razor",
+              "RelativeDocumentMoniker": "Pages\\Blog2.razor",
+              "ToolTip": "C:\\Users\\josef\\source\\repos\\AI\\Pages\\Blog2.razor",
+              "RelativeToolTip": "Pages\\Blog2.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T10:28:33.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Blog 1.razor",
+              "DocumentMoniker": "C:\\Users\\josef\\source\\repos\\AI\\Pages\\Blog 1.razor",
+              "RelativeDocumentMoniker": "Pages\\Blog 1.razor",
+              "ToolTip": "C:\\Users\\josef\\source\\repos\\AI\\Pages\\Blog 1.razor",
+              "RelativeToolTip": "Pages\\Blog 1.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T10:30:04.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Footer.razor",
+              "DocumentMoniker": "C:\\Users\\josef\\source\\repos\\AI\\Pages\\Footer.razor",
+              "RelativeDocumentMoniker": "Pages\\Footer.razor",
+              "ToolTip": "C:\\Users\\josef\\source\\repos\\AI\\Pages\\Footer.razor",
+              "RelativeToolTip": "Pages\\Footer.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T10:29:55.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\josef\\source\\repos\\AI\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\josef\\source\\repos\\AI\\Pages\\Home.razor",
+              "RelativeToolTip": "Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T10:29:17.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\josef\\source\\repos\\AI\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\josef\\source\\repos\\AI\\wwwroot\\index.html",
+              "RelativeToolTip": "wwwroot\\index.html",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-23T10:28:55.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\josef\\source\\repos\\AI\\App.razor",
+              "RelativeDocumentMoniker": "App.razor",
+              "ToolTip": "C:\\Users\\josef\\source\\repos\\AI\\App.razor",
+              "RelativeToolTip": "App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T10:25:50.891Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

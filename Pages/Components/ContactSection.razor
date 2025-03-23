@@ -1,0 +1,38 @@
+﻿<section id="contact" class="contact-section py-5" data-aos="fade-up">
+    <div class="container">
+        <h2 class="section-title text-center text-dark display-6 fw-normal">KONTAKTA OSS</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <form action="https://formspree.io/f/xoveeyaq" method="POST">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Namn</label>
+                        <input type="text" class="form-control" id="name" name="name" required placeholder="Skriv ditt namn" autocomplete="name" aria-required="true" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-post</label>
+                        <input type="email" class="form-control" id="email" name="email" required placeholder="din.email@exempel.com" autocomplete="email" aria-required="true" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Meddelande</label>
+                        <textarea class="form-control" id="message" name="message" rows="5" required placeholder="Skriv ditt meddelande här..." aria-required="true"></textarea>
+                    </div>
+
+                    <!-- Skydd mot spam (honeypot-fält som riktiga användare inte ser) -->
+                    <input type="text" name="_gotcha" style="display:none" />
+
+                    <!-- Om du vill redirecta till tack-sida -->
+                    <!-- <input type="hidden" name="_next" value="https://dinhemsida.se/tack"> -->
+
+                    <button type="submit" class="btn btn-success">Skicka</button>
+                </form>
+            </div>
+            <div class="col-md-6 mt-4">
+                <p>Har du frågor eller vill veta mer om våra tjänster? Tveka inte att kontakta oss!</p>
+                <p>
+                    <strong>Telefon:</strong> 070-443 87 37<br />
+                    <strong>E-post:</strong> Josefaxen@proton.me
+                </p>
+            </div>
+        </div>
+    </div>
+</section>

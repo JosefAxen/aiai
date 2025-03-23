@@ -1,0 +1,156 @@
+﻿@page "/blog-1"
+<AI.Pages.Components.NavMenu/>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+<!-- Exempel på en dedikerad sektion för blogginlägg -->
+<section id="blog-post" class="py-5" data-aos="fade-up">
+    <div class="container">
+        <!-- Sektionstitel med samma utseende som övriga titlar -->
+        <h2 class="section-title text-center text-dark display-6 fw-normal">
+            5 sätt AI kan förändra din verksamhet
+        </h2>
+        <div class="row justify-content-center">
+            <!-- Kolumn som centrerar innehållet och ger lite luft på sidorna -->
+            <div class="col-md-10">
+                <!-- Inledning -->
+                <p class="fs-5 fw-light text-dark">
+                    Artificiell intelligens (AI) är inte längre en futuristisk vision – den finns redan i
+                    praktisk användning i många företag. Nedan går vi igenom fem konkreta sätt som AI kan
+                    revolutionera din verksamhet och öka konkurrenskraften.
+                </p>
+
+                <!-- 1. Automatiserad dataanalys -->
+                <h4 class="text-dark fw-normal mt-4">1. Automatiserad dataanalys</h4>
+                <p class="fs-5 fw-light text-dark">
+                    Istället för att lägga timmar på att manuellt gå igenom stora datamängder kan du med AI
+                    snabbare upptäcka trender och mönster. Detta ger dig djupare insikter om dina kunder,
+                    produkter och marknadsförutsättningar, vilket leder till mer välgrundade affärsbeslut.
+                </p>
+
+                <!-- 2. Personlig kundupplevelse -->
+                <h4 class="text-dark fw-normal mt-4">2. Personlig kundupplevelse</h4>
+                <p class="fs-5 fw-light text-dark">
+                    Genom AI-drivna rekommendationsmotorer och chattbottar kan du skapa en mer skräddarsydd
+                    upplevelse för dina kunder. De får snabbare svar på sina frågor och produktförslag som
+                    är relevanta för just deras behov.
+                </p>
+
+                <!-- 3. Prediktivt underhåll -->
+                <h4 class="text-dark fw-normal mt-4">3. Prediktivt underhåll</h4>
+                <p class="fs-5 fw-light text-dark">
+                    För företag inom tillverkning eller med avancerad maskinpark kan AI förutsäga när
+                    utrustning behöver underhåll innan ett fel uppstår. Detta reducerar driftstopp och
+                    sparar både tid och resurser.
+                </p>
+
+                <!-- 4. Effektivare personalresurser -->
+                <h4 class="text-dark fw-normal mt-4">4. Effektivare personalresurser</h4>
+                <p class="fs-5 fw-light text-dark">
+                    Automatisering av rutinuppgifter via AI frigör tid för dina medarbetare att fokusera
+                    på mer värdeskapande arbete. Dessutom kan AI användas vid rekrytering för att matcha
+                    kandidater mot tjänster på ett mer objektivt och effektivt sätt.
+                </p>
+
+                <!-- 5. Förbättrad beslutsfattning -->
+                <h4 class="text-dark fw-normal mt-4">5. Förbättrad beslutsfattning</h4>
+                <p class="fs-5 fw-light text-dark">
+                    Med realtidsprognoser och noggranna analyser kan ledare snabbt fatta välgrundade beslut.
+                    AI hjälper dig att hålla koll på förändringar i marknaden och ger proaktiva varningar
+                    när något behöver åtgärdas.
+                </p>
+
+                <!-- Sammanfattning -->
+                <h4 class="text-dark fw-normal mt-4">Sammanfattning</h4>
+                <p class="fs-5 fw-light text-dark">
+                    Implementering av AI kan ge avgörande fördelar – från ökad effektivitet till bättre
+                    kundupplevelser. Oavsett bransch finns det sannolikt aspekter i din verksamhet som AI
+                    kan förbättra. Genom att börja i liten skala och gradvis utöka användningen av AI, kan
+                    du skapa en långsiktig strategi för framgång i den digitala tidsåldern.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    // Preloader
+    window.addEventListener('load', function () {
+        document.getElementById('preloader').style.display = 'none';
+    });
+
+    window.addEventListener('load', function () {
+    document.getElementById('preloader').style.display = 'none';
+    });
+
+
+    setTimeout(function() {
+    document.getElementById('preloader').style.display = 'none';
+    }, 10000);
+
+
+    // Navbar shrink on scroll
+    window.addEventListener('scroll', function() {
+        const navbar = document.getElementById('navbar');
+        navbar.classList.toggle('navbar-shrink', window.scrollY > 50);
+    });
+
+    // Initialize AOS
+    AOS.init({
+        duration: 1000,
+        once: true
+    });
+
+    // Initialize particles.js with smoother configuration
+    particlesJS("particles-js", {
+        "particles": {
+            "number": { "value": 60, "density": { "enable": true, "value_area": 800 } },
+            "color": { "value": "#4CAF50" },
+            "shape": { "type": "circle" },
+            "opacity": { "value": 0.4, "random": true },
+            "size": { "value": 3, "random": true },
+            "line_linked": { "enable": true, "distance": 150, "color": "#4CAF50", "opacity": 0.4, "width": 1 },
+            "move": { "enable": true, "speed": 2, "direction": "none", "random": false, "straight": false, "out_mode": "out" }
+        },
+        "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+                "onhover": { "enable": true, "mode": "repulse" },
+                "onclick": { "enable": true, "mode": "push" }
+            },
+            "modes": {
+                "repulse": { "distance": 100, "duration": 0.4 },
+                "push": { "particles_nb": 4 }
+            }
+        },
+        "retina_detect": true
+    });
+
+    // Animated counters (same as before)
+    function animateCounter(id, target) {
+        let count = 0;
+        const speed = target / 200;
+        const counter = document.getElementById(id);
+        const interval = setInterval(() => {
+            count += speed;
+            if (count >= target) { count = target; clearInterval(interval); }
+            counter.innerText = Math.floor(count);
+        }, 20);
+    }
+    let countersTriggered = false;
+    window.addEventListener('scroll', function() {
+        const statsSection = document.getElementById('statistics');
+        if (!countersTriggered && statsSection.getBoundingClientRect().top < window.innerHeight) {
+            animateCounter('counter1', 120);
+            animateCounter('counter2', 64);
+            animateCounter('counter3', 172);
+            countersTriggered = true;
+        }
+    });
+
+
+</script>

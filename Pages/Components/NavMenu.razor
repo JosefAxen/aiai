@@ -1,0 +1,48 @@
+﻿@* NavMenu.razor *@
+
+
+<nav id="navbar" class="navbar navbar-expand-lg p-1 navbar-dark ">
+    <div class="container">
+        <a class="navbar-brand fw-normal" href="/"><img src="images/Screenshot 2025-03-23 084322.png" alt="Axén Intelligence" class="logo-img img-fluid" /></a>
+        <button class="navbar-toggler" type="button" @onclick="ToggleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse @(navbarCollapsed ? "" : "show")" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <NavLink class="nav-link" href="/" Match="NavLinkMatch.All">Hem</NavLink>
+                </li>
+                <li class="nav-item">
+                    <NavLink class="nav-link" href="/#services">Tjänster</NavLink>
+                </li>
+                <li class="nav-item">
+                    <NavLink class="nav-link" href="/#about">Om oss</NavLink>
+                </li>
+                <li class="nav-item">
+                    <NavLink class="nav-link" href="/#statistics">Statistik</NavLink>
+                </li>
+          @*       <li class="nav-item">
+                    <NavLink class="nav-link" href="/#testimonials">Omdömen</NavLink>
+                </li> *@
+                <li class="nav-item">
+                    <NavLink class="nav-link" href="/#team">Vårt Team</NavLink>
+                </li>
+                <li class="nav-item">
+                    <NavLink class="nav-link" href="/#contact">Kontakt</NavLink>
+                </li>
+                <li class="nav-item">
+                    <NavLink class="nav-link" href="/#blog">Blogg</NavLink>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+@code {
+    private bool navbarCollapsed = true;
+
+    private void ToggleNavbar()
+    {
+        navbarCollapsed = !navbarCollapsed;
+    }
+}   
