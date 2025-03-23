@@ -2,22 +2,22 @@ name: 🚀 Deploy Blazor to GitHub Pages
 
 on:
   push:
-    branches: [main]  # Triggers deployment on every push to main
+    branches: [main]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: 🧾 Checkout repo
+      - name: 🔄 Checkout code
         uses: actions/checkout@v3
 
-      - name: 🧰 Setup .NET
+      - name: 🧰 Setup .NET SDK
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: 9.0.x  # Change to 8.0.x if you use .NET 8
+          dotnet-version: 8.0.x  # Use 9.0.x if GitHub supports it later
 
       - name: 🏗️ Publish Blazor WebAssembly app
-        run: dotnet publish -c Release -o release
+        run: dotnet publish ./aiai/aiai.csproj -c Release -o release
 
       - name: 📄 Copy index.html to 404.html
         run: cp release/wwwroot/index.html release/wwwroot/404.html
